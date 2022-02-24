@@ -1,5 +1,5 @@
 # Visualization of Clean Energy Generation (CH) 
-![error: Pic not found](data/Aare_SO-mini.jpg)
+![error: Pic not found](data/Aare_SO_mini.jpg)
 
 #### -- Project Status: [under construction, to be finished... whenever]
 
