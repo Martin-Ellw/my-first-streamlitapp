@@ -2,7 +2,7 @@
 
 random nice Photo :-)
 
-![blubb what is this for](data/Aare SO.jpg)
+![blubb what is this for](data/Aare_SO.jpg)
 
 #### -- Project Status: [under construction, to be finished... whenever]
 
