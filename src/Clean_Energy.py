@@ -15,7 +15,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-energy_raw = load_data(path="../data/renewable_power_plants_CH.CSV")
+energy_raw = load_data(path="../data/renewable_power_plants_CH.csv")
 energy = deepcopy(energy_raw)
 
 with open("../data/georef-switzerland-kanton.geojson") as response:
