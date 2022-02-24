@@ -15,10 +15,10 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-energy_raw = load_data(path="C:/Users/marti/my-first-streamlitapp/data/renewable_power_plants_CH.CSV")
+energy_raw = load_data(path="../data/renewable_power_plants_CH.CSV")
 energy = deepcopy(energy_raw)
 
-with open("C:/Users/marti/my-first-streamlitapp/data/georef-switzerland-kanton.geojson") as response:
+with open("../data/georef-switzerland-kanton.geojson") as response:
     cantons = json.load(response)
 
 #cantons["features"][0]["properties"]
