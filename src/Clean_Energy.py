@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 from urllib.request import urlopen
 import json
@@ -8,6 +10,8 @@ import plotly.io as pio
 import pandas as pd
 from copy import deepcopy
 
+print(os.getcwd())
+
 st.set_page_config(layout="wide")
 
 @st.cache
@@ -15,10 +19,10 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-energy_raw = load_data(path="../data/renewable_power_plants_CH.csv")
+energy_raw = load_data(path="data/renewable_power_plants_CH.csv")
 energy = deepcopy(energy_raw)
 
-with open("../data/georef-switzerland-kanton.geojson") as response:
+with open("data/georef-switzerland-kanton.geojson") as response:
     cantons = json.load(response)
 
 #cantons["features"][0]["properties"]
