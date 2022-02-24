@@ -1,45 +1,29 @@
-# Project Name
+# Visualization of Clean Energy Generation (CH) 
 
-example image:
+random nice Photo :-)
 
+![blubb what is this for](C:\Users\marti\Desktop\/IMG_20220117_145016.jpg)
 
-![alternative text](reports/img/pic01.jpg)
-
-
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [under construction, to be finished... whenever]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is just to try out / play with the Streamlit Toolkit
 
 ### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact]
-* If you do not have a partner leave this section out
+* [guided by SIT]
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
 * Data Visualization
-* Predictive Modeling
-* etc.
 
 ### Technologies
-* R
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
 * HTML
-* JavaScript
-* etc.
 
 ## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
+Using Geodata (JSON format) and Data of Renewable Energy Generation in Switzerland
+to monitor the development of the Energy mix.
+Would be great to have data of traditional Energy Generation to compare it to 
 
 ## Getting Started
 
@@ -49,7 +33,7 @@ Feel free to number or bullet point things here)
     *If using offline data mention that and how they may obtain the data from the froup)*
 
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+
 
 *If your project is well underway and setup is fairly complicated (ie. requires installation of many packages)
 create another "setup.md" file and link to it here*
@@ -69,4 +53,4 @@ create another "setup.md" file and link to it here*
 #### Other Members:
 
  - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
+ 
