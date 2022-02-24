@@ -2,7 +2,7 @@
 
 random nice Photo :-)
 
-![blubb what is this for](C:\Users\marti\Desktop\/IMG_20220117_145016.jpg)
+![blubb what is this for](data\Aare SO.jpg)
 
 #### -- Project Status: [under construction, to be finished... whenever]
 
